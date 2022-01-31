@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/libs/normalize.css">
+    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500&family=Open+Sans:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <select class="change_lang">
+        <option value="ru">RU</option>
+        <option value="ua">UA</option>
+    </select>
+    <div class="mobile_button">
+        <span id="firstSpan"></span>
+        <span id="secondSpan"></span>
+        <span id="thirdSpan"></span>
+    </div>
+    <aside class="menu">
+        <a class="menu_title" href="">HakyGroup</a>
+        <h4 class="menu_subtitle">ПРАЦІВНИКИ</h4>
+        <ul class="menu_list">
+            <li class="menu_list-link" id="aboutUs">Про Нас</li>
+            <li class="menu_list-link" id="news">Новини</li>
+            <li class="menu_list-link" id="vacancies">Вакансії</li>
+            <li class="menu_list-link" id="feedback">Зворотній зв'язок</li>
+        </ul>
+    </aside>
+    <section class="main">
+        <div class="container">
+            <H1 class="main_title">HakyGroup</H1>
+            <H2 class="main_subtitle">Europejska Agencja Pracy</H2>
+        </div>
+    </section>
+    <aside class="social">
+        <a href="">
+            <img src="/img/fb.png" alt="">
+        </a>
+        <a href="">
+            <img src="/img/fb.png" alt="">
+        </a>
+        <a href="">
+            <img src="/img/fb.png" alt="">
+        </a>
+        <a href="">
+            <img src="/img/fb.png" alt="">
+        </a>
+    </aside>
+    <section class="about">
+        <h4 class="about_title">
+            Про Нас
+        </h4>
+        <div class="container">
+            <p class="about_subtitle">
+                Група Haky на польском рынке трудоустройства более 8 лет, что показывает наработаный опыт и прозрачность
+                нашей деятельности. За эти годы нас выбрали тысячи людей для работы в Польше. Наша команда состоит из
+                профисионалов, знающих свое дело. С нами работают и нам доверяют более 1000 сотрудников по всей Польше.
+                Наши партнеры это большые польские и мировые компании: Biedronka, Netto, Stokrotka, Helio, HOPI,
+                Eurocash, Cellfast, MFO, Bakoma.
+            </p>
+            <div class="about_wrapper">
+                <button class="about_wrapper-button">Больше информации об услугах</button>
+            </div>
+            <div class="about_toggle-paragraph">
+                <ul>
+                    <li>Легальное трудоустройство</li>
+                    <li>Бесплатный подготовительный пакет документов</li>
+                    <li>Полное сопровождение координаторов и менеджеров</li>
+                    <li>Страхование</li>
+                    <li>Своевременные выплаты</li>
+                    <li>Помощь при потере работы на других агенциях</li>
+                    <li>Помощь и сопровождение в легализации быта в Польше</li>
+                    <li>Высокие заработные платы</li>
+                    <li>Ищешь лучшую работу? – Лучшая только в Haky!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <h3 class="news_title">Новини</h3>
+        <div class="container">
+            <div class="news_wrapper">
+                <div class="news_wrapper-item">
+                    <a href="https://www.gov.pl/web/coronavirus">
+                        <img src="/img/PolandLogo.png" alt="">
+                    </a>
+                </div>
+                <div class="news_wrapper-item" id="inPoland">
+                    <a href="https://www.yavp.pl/uk">
+                        <img src="/img/uk_logo.png" alt="">
+                    </a>
+                </div>
+                <div class="news_wrapper-item">
+                    <a href="https://inpoland.net.pl/">
+                        <img src="/img/logoPl.png" alt="">
+                    </a>
+                </div>
+                <div id="minfin-informer-m1Fn-calc">Загружаем <a href="https://minfin.com.ua/currency/"
+                        target="_blank">курсы валют от minfin.com.ua</a></div>
+                <noscript><img src="https://informer.minfin.com.ua/gen/img.png" width="1" height="1"
+                        alt="minfin.com.ua: курсы валют" title="Курс валют" border="0" /></noscript>
+            </div>
+        </div>
+    </section>
+    <section class="vacancies">
+        <h3 class="vacancies_title">Вакансії</h3>
+        <div class="container">
+            <div class="vacancies_wrapper">
+                <div class="vacancies_wrapper-item">
+                    <h4 class="vacancies_wrapper-item--title"> <span>Робота полягає в:</span> <br> Комплектації товару
+                    </h4>
+                    <h4 class="vacancies_wrapper-item--subtitle" id="itemSubTitleOne"> <span> Розташування:</span> <br>
+                        Тересін</h4>
+                    <p class="vacancies_wrapper-item--description"> <span><strong>Чим ти будеш
+                                займатися?</strong></span>
+                        <br>
+                        Компелктація товарів, збір замовлень на супермаркети з-за
+                        допомогою сканера і вузика електричного.
+                        Робота на двох відділах складу: теплий і холодний. Температура у теплому +18-20С, у холодному
+                        +8-10С. (Потрібно мати тепліші речі з собою).
+                    </p>
+                    <p class="vacancies_wrapper-item--info" id="vacansiesItemOne"> <span>Що ми хочемо вам
+                            запропонувати?</span>
+                        Заробітня плата залежить від кількості і швидкості зроблених замовлень.
+                        Доплата працівникам до 26 років + 1зл/год
+                        Графіки праці: з НД до ПТ по 10-12 год в залежності від кількості замовлень. На кожному обєкті
+                        около 240-320 годин в місяць.
+                        (Про актуальну кількість годин на кожному обєкті прошу уточняти)
+                        Вимоги до кандидату: хлопці, дівчата, сімейні пари до 35 років.
+                        Візи, біометрія (не меньше 2-ох місяців), карти побуту.
+                        Проживання: житло надається безкоштовно, знімається тільки за комунальні послуги 200зл в місяць.
+                        Сімейні пари живуть окремо, але можливо проживання 2 пари в одній кімнаті. В кімнатах 3-5 осіб.
+                        Доізд до роботи організований, 100 зл/місяць
+                        Одяг: Взуття з металевими накладками (захисні), спеціальні штани і каска вираховується з першоі
+                        зп (около 130-150 зл)
+                    </p>
+                </div>
+                <div class="vacancies_wrapper-item">
+                    <h4 class="vacancies_wrapper-item--title"> <span>Робота полягає в:</span> <br> Комплектації товару
+                    </h4>
+                    <h4 class="vacancies_wrapper-item--subtitle" id="itemSubTitleTwo"> <span> Розташування:</span> <br>
+                        Краків, Старгард</h4>
+                    <p class="vacancies_wrapper-item--description"> <span><strong>Чим ти будеш
+                                займатися?</strong></span>
+                        <br>
+                        Компелктація товарів, збір замовлень на супермаркети з-за
+                        допомогою наушників (голосових команд) і вузика електричного.
+                        Робота на двох відділах складу: теплий і холодний. Температура у теплому +18-20С, у холодному
+                        +8-10С. (Потрібно мати тепліші речі з собою).
+                    </p>
+                    <p class="vacancies_wrapper-item--info" id="vacansiesItemTwo"> <span>Що ми хочемо вам
+                            запропонувати?</span>
+                        Від 13,40 зл/год до 27 зл/год (аккордова система). Заробітня плата залежить від кількості і
+                        швидкості зроблених замовлень.
+                        Краків (додаток за нічні +2,65зл/год)
+                        Старгард (преміі за хорошу продуктивність від 100 до 300 зл, за перероблення більше 12 годин
+                        додаток 150зл)
+                        Сосновець (додаток за нічні +2,65зл/год)
+                        Білосток (додаток за нічні +2,65зл/год)
+                        Доплата працівникам до 26 років + 1зл/год
+                        Графіки праці: з НД до ПТ по 8-12 год в залежності від кількості замовлень
+                        (Про актуальну кількість годин на кожному обєкті прошу уточняти)
+                        Вимоги до кандидату: хлопці, дівчата, сімейні пари до 35 років.
+                        Візи, біометрія (не меньше 2-ох місяців), карти побуту.
+                        Проживання: житло надається безкоштовно, знімається тільки за комунальні послуги 200зл в місяць.
+                        Сімейні пари живуть окремо, але можливо проживання 2 пари в одній кімнаті. В кімнатах 3-5 осіб.
+                        Доізд до роботи організований, 100 зл/місяць
+                        Одяг: Взуття з металевими накладками (захисні), каска вираховується з першоі зп (около 130-150
+                        зл)
+                    </p>
+                </div>
+                <div class="vacancies_wrapper-item">
+                    <h4 class="vacancies_wrapper-item--title"> <span>Робота полягає в:</span> <br> Комплектації товару
+                    </h4>
+                    <h4 class="vacancies_wrapper-item--subtitle" id="itemSubTitleThree"> <span> Розташування:</span>
+                        <br> Мщонув , Вишкув ,
+                        Коштин , Гданьск
+                    </h4>
+                    <p class="vacancies_wrapper-item--description"> <span> <strong>Чим ти будеш займатися?</strong>
+                        </span>
+                        <br>
+                        Компелктація товарів, збір замовлень на супермаркети з-за допомогою наушників (голосових команд)
+                        і вузика електричного.
+                        Робота на двох відділах складу: теплий і холодний. Температура у теплому +18-20С, у холодному
+                        +8-10С. (Потрібно мати тепліші речі з собою).
+                    </p>
+                    <p class="vacancies_wrapper-item--info" id="vacansiesItemThree"> <span>Що ми хочемо вам
+                            запропонувати?</span>
+                        Для дівчат поділенна праця тільки на відділі хіміі і молочці, де більш легші товари.
+                        Від 13,80-14,80 зл/год до 35 зл/год (аккордова система). Заробітня плата залежить від
+                        кількості і швидкості зроблених замовлень.
+                        Доплата працівникам до 26 років + 1зл/год
+                        Премія найкращому працівнику 200зл.
+                        Також, якщо в перерахунку на годину, працівник отримує більше 25зл/год, матиме додатково +1
+                        зл/год.
+                        Графіки праці: з НД до ПТ по 8-12 год в залежності від кількості замовлень. На кожному обєкті
+                        около 200 годин в місяць.
+                        (Про актуальну кількість годин на кожному обєкті прошу уточняти)
+                        Вимоги до кандидату: хлопці, сімейні пари до 35 років. За дівчат прошу учтоняти.
+                        Візи, біометрія (не меньше 2-ох місяців), карти побуту.
+                        Проживання: житло надається безкоштовно, знімається тільки за комунальні послуги 200зл в місяць.
+                        Сімейні пари живуть окремо, але можливо проживання 2 пари в одній кімнаті. В кімнатах 3-5 осіб.
+                        Доізд до роботи організований, 100 зл/місяць
+                        Одяг: Взуття з металевими накладками (захисні), спеціальні штани і каска вираховується з першоі
+                        зп (около 130-150 зл)
+
+                    </p>
+                </div>
+                <div class="vacancies_wrapper-item">
+                    <h4 class="vacancies_wrapper-item--title"> <span>Робота полягає в:</span> <br> Комплектації товару
+                    </h4>
+                    <h4 class="vacancies_wrapper-item--subtitle" id="itemSubTitleFour"> <span> Розташування:</span> <br>
+                        Тересін , Кобилянка ,
+                        Вроцлав, Глівіце. </h4>
+                    <p class="vacancies_wrapper-item--description"> <span><strong>Чим ти будеш
+                                займатися?</strong></span>
+                        <br>
+                        Компелктація товарів, збір замовлень на супермаркети з-за допомогою наушників (голосових команд)
+                        і вузика електричного.
+                        Робота на двох відділах складу: теплий і холодний. Температура у теплому +18-20С, у холодному
+                        +8-10С. (Потрібно мати тепліші речі з собою).
+                    </p>
+                    <p class="vacancies_wrapper-item--info" id="vacansiesItemFour"> <span>Що ми хочемо вам
+                            запропонувати?</span>
+                        Від 13,50 зл/год до 26 зл/год (аккордова система). Заробітня плата залежить від кількості і
+                        швидкості зроблених замовлень.
+                        Доплата працівникам до 26 років + 1зл/год
+                        Премія найкращому працівнику 200зл.
+                        Графіки праці: з НД до ПТ по 8-12 год в залежності від кількості замовлень. На кожному обєкті
+                        около 200 годин в місяць.
+                        (Про актуальну кількість годин на кожному обєкті прошу уточняти)
+                        Вимоги до кандидату: хлопці, сімейні пари до 35 років. За дівчат прошу учтоняти.
+                        Візи, біометрія (не меньше 2-ох місяців), карти побуту.
+                        Проживання: житло надається безкоштовно, знімається тільки за комунальні послуги 200зл в місяць.
+                        Сімейні пари живуть окремо, але можливо проживання 2 пари в одній кімнаті. В кімнатах 3-5 осіб.
+                        Доізд до роботи організований, 100 зл/місяць
+                        Одяг: Взуття з металевими накладками (захисні), спеціальні штани і каска вираховується з першоі
+                        зп (около 130-150 зл)
+                    </p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="vacancies_wrapper" id="hiddenWrapper">
+                    <div class="new_position">
+                        <p class="new_position-title" id="positionOne">
+                            Робота на складі
+                        </p>
+                        <p class="new_position-subtitle" id="positionOneSubtitle">
+                            Місто Sosnowiec( 20 км від Катовіц)
+                        </p>
+                        <p class="new_position-description" id="positionOneDescription">
+                            Чоловіки, жінки, сімейні пари до 35 років, віза від 3 місяців, повне біо!
+                            Житло безкоштовне (оплата лише за комунальні послуги), окремі кімнати для пар, хороші умови,
+                            організований доїзд до роботи!
+                            Вакансії:
+                            - комплектація товарів,оплата акордна від 15,5 до 22 злот/год нетто
+                            - оператор візка високого складу з UDT (оплата акордна від 14,6 до 22 зл/год) Зміни по
+                            10-12годин Доплата особам до 26 років!
+                            За деталями
+                            +380967025050 вайбер
+                            +48721230896
+                        </p>
+                    </div>
+                    <div class="new_position">
+                        <p class="new_position-title" id="positionOne">
+                            Робота на складі
+                        </p>
+                        <p class="new_position-subtitle" id="positionTwoSubtitle">
+                            Місто Блоне (біля Варшави)
+                        </p>
+                        <p class="new_position-description" id="positionTwoDescription">
+                            Чоловіки, жінки, сімейні пари до 35 років, віза від 3 місяців, повне біо!
+                            комплектація товару на магазин (оплата акордна від 17,00 до 25,50 zl/год нетто, залежить
+                            від швидкості виконань замовлень + 1 зл/год. особам до 26 років)
+                            Зміни по 8-12 год.
+                            Доплата за нічні години 2,8 zl.
+                            Безкоштовне житло(оплата лише за комунальні послуги), окремі кімнати для пар, хороші умови!
+                            Організований доїзд до містя роботи!
+                            За деталями
+                            +380967025050 вайбер
+                            +48721230896
+                        </p>
+                    </div>
+                    <div class="new_position">
+                        <p class="new_position-title" id="positionTwo">
+                            Робота за заводі металевих констркцій
+                        </p>
+                        <p class="new_position-subtitle" id="positionThreeSubtitle">
+                            Місто Сохачев, біля Варшави
+                        </p>
+                        <p class="new_position-description" id="positionThreeDescription">
+                            Чоловіки до 45 років!
+                            Робота на станках по різці металу.
+                            Віза від 3 міяців, повне біо!
+                            Оплата погодинова 15,75 зл/год.
+                            Зміни по 8-12 год.
+                            Безкоштовне житло(оплата лише за комунальні послуги), хороші умови!
+                            За деталями
+                            +380967025050 вайбер
+                            +48721230896
+                        </p>
+                    </div>
+                    <div class="new_position">
+                        <p class="new_position-title" id="positionThree">
+                            Робота за заводі молочних виробів
+                        </p>
+                        <p class="new_position-subtitle" id="positionFourSubtitle">
+                            Місто Сохачев, біля Варшави
+                        </p>
+                        <p class="new_position-description" id="positionFourDescription">
+                            Чоловіки, жінки, сімейні пари до 50 років, віза від 3 місяців, повне біо!
+                            -Комплектація, міксування молочних виробів
+                            Оплата погодинова:
+                            -до 8 робочих годин по 14,90 zl/год нетто, -від 8 до 10 робочих годин по 22,47 zl/год нетто,
+                            -від 10 до 12 робочих годин по 29,96 zl/год нетто,
+                            Доплата за нічні години!
+                            Зміни по 8-12 год.
+                            Безкоштовне житло(оплата лише за комунальні послуги), окремі кімнати для пар, хороші умови!
+                            Організований доїзд до містя роботи!
+                            За деталями
+                            +380967025050 вайбер
+                            +48721230896
+                        </p>
+                    </div>
+                    <div class="new_position">
+                        <p class="new_position-title" id="positionFour">
+                            Робота на складі
+                        </p>
+                        <p class="new_position-subtitle" id="positionFive">
+                            Місто Гливиці (20 км від Катовіце)
+                            Місто Тересін (40 км від Варшави)
+                        </p>
+                        <p class="new_position-description" id="positionFiveDescription">
+                            Чоловіки, жінки, сімейні пари до 35 років, віза від 3 місяців, повне біо!
+                            Безкоштовне житло (оплата лише за комунальні послуги),окремі кімнати для пар, хороші умови!
+                            Вакансії:
+                            - комплектація товарів (оплата акордна від 14,6 до 26zl/год. нетто, залежить від швидкості
+                            виконань замовлень.)
+                            - завантаження причепів (ставка 18 зл/год. нетто)
+                            - оператор візка високого складу з UDT (ставка 18 зл/год. нетто)
+                            Зміни по 8-12годин
+                            Доплата особам до 26 років!
+
+                            За деталями 
+                            +380967025050 вайбер
+                            +48721230896
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button id="moreVacansiesButton">
+                Більше вакансій
+            </button>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback_wrapper">
+                <div class="feedback_wrapper-inputs">
+                    <input type="text" placeholder="Имя" name="name" id="name">
+                    <input type="tel" placeholder="Телефон" name="phone" id="phone">
+                    <input type="email" placeholder="Email" name="email" id="email">
+                    <textarea name="message" placeholder="Сообщение" cols="30" rows="10" id="msg"></textarea>
+                    <button id="feedback_button">Отправить</button>
+                </div>
+                <div class="feedback_wrapper-title">
+                    <h3>Мы вам перезвоним</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>var iframe = '<ifra' + 'me width="200" height="112" fram' + 'eborder="0" src="https://informer.minfin.com.ua/gen/calc/nbu/?color=yellow" vspace="0" scrolling="no" hspace="0" allowtransparency="true"style="width:200px;height:112px;ove' + 'rflow:hidden;"></iframe>'; var cl = 'minfin-informer-m1Fn-calc'; document.getElementById(cl).innerHTML = iframe; </script>
+    <script src="./js/main.js"></script>
+    <script src="./js/libs/changeLng.js"></script>
+    <script>
+
+        $('#feedback_button').click(function (e) {
+
+            e.preventDefault();
+
+            var name = $("#name").val();
+            var phone = $("#phone").val();
+            var email = $("#email").val();
+            var msg = $("#msg").val();
+
+            if (!name || !phone || !email) {
+                alert("Пожалуйста, заполните обязательные поля.");
+                return false;
+            }
+
+            $.post("send.php", {
+                name,
+                phone,
+                email,
+                msg
+            }).success(function () {
+                alert("Спасибо за заявку. Мы с Вами свяжемся в течении 24 часов.");
+                console.log("Success");
+                $("#name").val("");
+                $("#phone").val("");
+                $("#email").val("");
+                $("#msg").val("");
+            }).fail(function (e) {
+                alert("Упс! Что-то пошло не так. Возникла какая-то ошибка. Попробуйте отправить форму позже.");
+                console.log("Request failed", e);
+            });
+        });
+    </script>
+</body>
+
+</html>
